@@ -1,0 +1,44 @@
+body {
+    background-image: url("background.jpg"); /* Replace 'your-image.jpg' with the path to your image file */
+    background-size: cover; /* Optional: Adjust how the image is displayed */
+    background-repeat: no-repeat; /* Optional: Prevent image from repeating */
+    
+}
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 72px;
+    letter-spacing: 0.5rem;
+    word-spacing: 1rem;
+    color:rgb(208, 231, 252);
+    padding-left: 13rem;
+    margin-inline:auto;
+}
+
+.commands {
+    margin-inline: auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.5rem;
+    padding: 4rem 0rem 0rem 32rem;
+    letter-spacing: 0.2rem;
+    line-height: 2rem;
+}
+
+
+hr {
+    width: 33%;
+    margin-left: 0;
+    height:0;
+}
+
+
+a {
+    text-decoration: none;
+    color:aliceblue;
+}
+
+
+a:hover {
+    color:rgb(100, 210, 237)
+}
+

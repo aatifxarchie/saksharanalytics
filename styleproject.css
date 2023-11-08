@@ -1,0 +1,44 @@
+body {
+    background-image: url("about.jpg"); /* Replace 'your-image.jpg' with the path to your image file */
+    background-size: cover; /* Optional: Adjust how the image is displayed */
+    background-repeat: no-repeat; /* Optional: Prevent image from repeating */
+    
+}
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 72px;
+    letter-spacing: 0.5rem;
+    word-spacing: 1rem;
+    color:rgb(208, 231, 252);
+    padding-left: 13rem;
+    margin-inline:auto;
+}
+
+.home{
+    margin-left: 81rem;
+    font-size: 1.25rem;
+    margin-bottom: 0;
+}
+
+a {
+    text-decoration: none;
+    color:aliceblue;
+}
+
+
+a:hover {
+    color:rgb(100, 210, 237)
+}
+
+.data {
+    color:aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 0.08rem;
+    text-align: center;
+    padding: 2rem;
+}
+
+.sak {
+    padding-left: 30%;
+}

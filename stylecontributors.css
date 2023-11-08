@@ -1,0 +1,82 @@
+body {
+    background-image: url("back.jpg"); /* Replace 'your-image.jpg' with the path to your image file */
+    background-size: cover; /* Optional: Adjust how the image is displayed */
+    background-repeat: no-repeat; /* Optional: Prevent image from repeating */
+    
+}
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 72px;
+    letter-spacing: 0.5rem;
+    word-spacing: 1rem;
+    color:rgb(208, 231, 252);
+    padding-left: 19rem;
+    margin-inline:auto;
+}
+
+.home{
+    margin-left: 81rem;
+    font-size: 1.25rem;
+    margin-bottom: 0;
+}
+
+a {
+    text-decoration: none;
+    color:aliceblue;
+}
+
+a:hover {
+    color:rgb(100, 210, 237)
+}
+
+/* Style the contributors section */
+.contributors {
+    text-align: center;
+}
+
+/* Style the heading */
+.contributors h2 {
+    font-size: 28px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 0.1rem;
+    color:aliceblue;
+}
+
+/* Style each contributor card */
+.contributor {
+    display: inline-block;
+    width: 250px;
+    margin: 20px;
+    background-color:rgb(2, 42, 58);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(235, 234, 234, 0.1);
+    transition: transform 0.2s;
+}
+
+/* Style the contributor image */
+.contributor img {
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+/* Style the contributor name and role */
+.contributor h3 {
+    font-size: 18px;
+    color:aliceblue;
+    margin: 10px 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.contributor p {
+    font-size: 14px;
+    color:aliceblue;
+    margin: 10px 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Hover effect for contributor cards */
+.contributor:hover {
+    transform: scale(1.05);
+}
