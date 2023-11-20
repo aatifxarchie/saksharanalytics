@@ -30,3 +30,21 @@ a:hover {
 .fig {
     padding-left:23%;
 }
+
+#KV {
+    color:aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 0.08rem;
+    text-align: center;
+    padding: 2rem;
+}
+
+#KV1 {
+    color:aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 0.08rem;
+    text-align: center;
+    padding: 2rem;
+
+    
+}
